@@ -1,7 +1,7 @@
 # CG-L1
-Creating the first window program displaying a plane figure (triangle)
+# Creating the first window program displaying a plane figure (triangle).
 
-  glutDisplayFunc(RenderSceneCB)
+  	glutDisplayFunc(RenderSceneCB)
   function sets the display callback for the current window, taking callback function needed for rendering as an argument
   
 	glClear(GL_COLOR_BUFFER_BIT)
@@ -53,9 +53,10 @@ Creating the first window program displaying a plane figure (triangle)
 	glBufferData(GL_ARRAY_BUFFER, sizeof(Vertices), Vertices, GL_STATIC_DRAW)
   creates a buffer object's data store
   
-  glutDisplayFunc(RenderSceneCB) sets the display callback for the current window
+  	glutDisplayFunc(RenderSceneCB) 
+  sets the display callback for the current window
   
 	glutMainLoop()
   passes control to GLUT which begins its internal loop
   
-  We have learnt to create simple programs using tools specific for this application programming interface.
+ # We have learnt to create simple programs using tools specific for this application programming interface.
