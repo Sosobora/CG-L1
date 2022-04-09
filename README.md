@@ -1,5 +1,5 @@
 # CG-L1
-# Creating the first window program displaying a plane figure (triangle).
+# Creating the first window program displaying a plane figure (triangle)
 
   	glutDisplayFunc(RenderSceneCB)
   function sets the display callback for the current window, taking callback function needed for rendering as an argument
