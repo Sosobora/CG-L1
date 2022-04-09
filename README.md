@@ -59,4 +59,4 @@
 	glutMainLoop()
   passes control to GLUT which begins its internal loop
   
- # We have learnt to create simple programs using tools specific for this application programming interface.
+ # We have learnt to create simple programs using specific tools of this application programming interface.
